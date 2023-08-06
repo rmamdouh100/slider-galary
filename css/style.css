@@ -1,0 +1,29 @@
+
+
+body {
+    background: rgba(40, 38, 38, 0.732);
+}
+
+/* #fire {
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}  */
+
+.item img {
+    cursor: pointer;
+}
+
+.img-caption {
+    width: 90%;
+    bottom: 7%;
+    left: 5%;
+}
+
+#lightgallery {
+    width: 50%;
+    height: 40rem;
+    /* background-color: tomato; */
+    background-size: cover;
+}

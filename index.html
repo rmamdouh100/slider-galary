@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+ 
+
+    <div class="w-50 mx-auto" id="">
+        <img src="./images/1.jpg" class="w-100 p-2" id="mainImg" alt="">
+        <div class="d-flex">
+            <img src="./images/1.jpg" class="w-25 p-2 butllet" alt="">
+            <img src="./images/2.jpg" class="w-25 p-2 butllet" alt="">
+            <img src="./images/3.jpg" class="w-25 p-2 butllet" alt="">
+            <img src="./images/4.jpg" class="w-25 p-2 butllet" alt="">
+        </div>
+    </div>
+
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="item position-relative">
+                        <img src="./images/1.jpg" alt="" class="img-fluid">
+                        <div class="img-caption bg-white position-absolute p-2">
+                            <h3>Title here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item position-relative">
+                        <img src="./images/2.jpg" alt="" class="img-fluid">
+                        <div class="img-caption bg-white position-absolute p-2">
+                            <h3>Title here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item position-relative">
+                        <img src="./images/3.jpg" alt="" class="img-fluid">
+                        <div class="img-caption bg-white position-absolute p-2">
+                            <h3>Title here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item position-relative">
+                        <img src="./images/4.jpg" alt="" class="img-fluid">
+                        <div class="img-caption bg-white position-absolute p-2">
+                            <h3>Title here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item position-relative">
+                        <img src="./images/1.jpg" alt="" class="img-fluid">
+                        <div class="img-caption bg-white position-absolute p-2">
+                            <h3>Title here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item position-relative">
+                        <img src="./images/2.jpg" alt="" class="img-fluid">
+                        <div class="img-caption bg-white position-absolute p-2">
+                            <h3>Title here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="lightgalleryOverlay"
+        class="w-100 vh-100 position-fixed top-0 end-0 bg-dark bg-opacity-50 d-none justify-content-center align-items-center">
+        <div id="lightgallery" class="d-flex justify-content-between align-items-center position-relative">
+            <i id="prevBtn" class="fa-solid fa-2x fa-chevron-left p-5"></i>
+            <i id="closeBtn" class="fa-solid fa-2x fa-xmark p-5 position-absolute top-0 end-0"></i>
+            <i id="nextBtn" class="fa-solid fa-2x fa-chevron-right p-5"></i>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
